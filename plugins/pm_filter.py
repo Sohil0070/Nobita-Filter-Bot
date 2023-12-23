@@ -1160,8 +1160,8 @@ async def cb_handler(client: Client, query: CallbackQuery):
         buttons = [[
             InlineKeyboardButton('ꜱᴜʙꜱᴄʀɪʙᴇ  ᴍʏ  ʏᴛ  ᴄʜᴀɴɴᴇʟ', url="https://youtube.com/@MovieVillaYT"),
         ],[
-            InlineKeyboardButton('ɢʀᴏᴜᴘ', url="https://telegram.me/AllRequestGroups"),
-            InlineKeyboardButton('ᴄʜᴀɴɴᴇʟ', url="https://telegram.dog/BotszList")
+            InlineKeyboardButton('ɢʀᴏᴜᴘ', url="https://telegram.me/InoxReq"),
+            InlineKeyboardButton('ᴄʜᴀɴɴᴇʟ', url="https://telegram.dog/InoxHubb")
         ],[
             InlineKeyboardButton('ꜱᴜᴘᴘᴏʀᴛ', url="https://telegram.me/BotszSupport"),
             InlineKeyboardButton('ᴜᴘᴅᴀᴛᴇꜱ', url="https://telegram.me/ReviewsGallary")
@@ -1214,7 +1214,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
     elif query.data == "support_group":
         buttons = [[
-           InlineKeyboardButton('ᴏᴡɴᴇʀ', url='https://telegram.me/NobiDeveloperr'),
+           InlineKeyboardButton('ᴏᴡɴᴇʀ', url='https://telegram.me/InoxHubb'),
            InlineKeyboardButton('ꜱᴜᴘᴘᴏʀᴛ', url='https://telegram.me/BotszSupport')
         ], [
             InlineKeyboardButton('ʙᴀᴄᴋ', callback_data='start')
@@ -1431,7 +1431,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('ʀᴇᴘᴏʀᴛ  ʙᴜɢꜱ  ᴀɴᴅ  ꜰᴇᴇᴅʙᴀᴄᴋ', url='https://telegram.me/BotszSupport')
         ],[
             InlineKeyboardButton('ʙᴀᴄᴋ', callback_data='start'),
-            InlineKeyboardButton('ɴᴇxᴛ', url='https://telegram.me/AllRequestGroups')
+            InlineKeyboardButton('ɴᴇxᴛ', url='https://telegram.me/InoxReq')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await client.edit_message_media(
@@ -1812,7 +1812,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
     elif query.data == "deploy":
         buttons = [[
            InlineKeyboardButton('ʀᴇᴘᴏ', url='https://github.com/NobiDeveloper/Nobita-Filter-Bot'),
-           InlineKeyboardButton('ᴏᴡɴᴇʀ', url='https://telegram.me/NobiDeveloperr')
+           InlineKeyboardButton('ᴏᴡɴᴇʀ', url='https://telegram.me/InoxHubb')
         ], [
             InlineKeyboardButton('ʙᴀᴄᴋ', callback_data='help2')
         ]]
@@ -1925,7 +1925,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                     InlineKeyboardButton("💶    ᴘʟᴇᴀsᴇ  ᴅᴏɴᴀᴛᴇ    💶", url="https://telegra.ph/SUPPORT-12-22-2")
                  ],[
                     InlineKeyboardButton("ʙᴀᴄᴋ", callback_data="start"),
-                    InlineKeyboardButton("ᴄʟᴏsᴇ", url="https://telegram.me/AllRequestGroups")
+                    InlineKeyboardButton("ᴄʟᴏsᴇ", url="https://telegram.me/InoxReq")
                   ]]
             reply_markup = InlineKeyboardMarkup(btn)
             await client.edit_message_media(
