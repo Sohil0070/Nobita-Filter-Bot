@@ -1163,8 +1163,8 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('ɢʀᴏᴜᴘ', url="https://telegram.me/InoxReq"),
             InlineKeyboardButton('ᴄʜᴀɴɴᴇʟ', url="https://telegram.dog/InoxHubb")
         ],[
-            InlineKeyboardButton('ꜱᴜᴘᴘᴏʀᴛ', url="https://telegram.me/BotszSupport"),
-            InlineKeyboardButton('ᴜᴘᴅᴀᴛᴇꜱ', url="https://telegram.me/ReviewsGallary")
+            InlineKeyboardButton('ꜱᴜᴘᴘᴏʀᴛ', url="https://telegram.me/InoxDiscussion"),
+            InlineKeyboardButton('ᴜᴘᴅᴀᴛᴇꜱ', url="https://telegram.me/InoxDiscussion")
         ],[
             InlineKeyboardButton('ʙᴀᴄᴋ​', callback_data='start')
         ]]
@@ -1215,7 +1215,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
     elif query.data == "support_group":
         buttons = [[
            InlineKeyboardButton('ᴏᴡɴᴇʀ', url='https://telegram.me/InoxHubb'),
-           InlineKeyboardButton('ꜱᴜᴘᴘᴏʀᴛ', url='https://telegram.me/BotszSupport')
+           InlineKeyboardButton('ꜱᴜᴘᴘᴏʀᴛ', url='https://telegram.me/InoxDiscussion')
         ], [
             InlineKeyboardButton('ʙᴀᴄᴋ', callback_data='start')
         ]]
@@ -1428,7 +1428,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         ],[
             InlineKeyboardButton('ꜱᴜʙꜱᴄʀɪʙᴇ  ᴍʏ  ʏᴛ  ᴄʜᴀɴɴᴇʟ', url='https://youtube.com/@NobiDeveloper')
         ],[
-            InlineKeyboardButton('ʀᴇᴘᴏʀᴛ  ʙᴜɢꜱ  ᴀɴᴅ  ꜰᴇᴇᴅʙᴀᴄᴋ', url='https://telegram.me/BotszSupport')
+            InlineKeyboardButton('ʀᴇᴘᴏʀᴛ  ʙᴜɢꜱ  ᴀɴᴅ  ꜰᴇᴇᴅʙᴀᴄᴋ', url='https://telegram.me/InoxDiscussion')
         ],[
             InlineKeyboardButton('ʙᴀᴄᴋ', callback_data='start'),
             InlineKeyboardButton('ɴᴇxᴛ', url='https://telegram.me/InoxReq')
@@ -1811,7 +1811,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
     elif query.data == "deploy":
         buttons = [[
-           InlineKeyboardButton('ʀᴇᴘᴏ', url='https://github.com/NobiDeveloper/Nobita-Filter-Bot'),
+           InlineKeyboardButton('ʀᴇᴘᴏ', url='https://graph.org/file/c097b4ca7d563b79c69ed.gif'),
            InlineKeyboardButton('ᴏᴡɴᴇʀ', url='https://telegram.me/InoxHubb')
         ], [
             InlineKeyboardButton('ʙᴀᴄᴋ', callback_data='help2')
@@ -1922,7 +1922,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
     elif query.data == "owner_info":
             btn = [[
-                    InlineKeyboardButton("💶    ᴘʟᴇᴀsᴇ  ᴅᴏɴᴀᴛᴇ    💶", url="https://telegra.ph/SUPPORT-12-22-2")
+                    InlineKeyboardButton("💶    ᴘʟᴇᴀsᴇ  ᴅᴏɴᴀᴛᴇ    💶", url="https://telegra.ph/SUPPORT-12-24-4")
                  ],[
                     InlineKeyboardButton("ʙᴀᴄᴋ", callback_data="start"),
                     InlineKeyboardButton("ᴄʟᴏsᴇ", url="https://telegram.me/InoxReq")
