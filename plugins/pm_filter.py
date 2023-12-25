@@ -440,7 +440,7 @@ async def filter_languages_cb_handler(client: Client, query: CallbackQuery):
             )
 
     btn.insert(0, [
-        InlineKeyboardButton(f'⛔️  sᴜʙsᴄʀɪʙᴇ ᴏᴜʀ ʏᴛ ᴄʜᴀɴɴᴇʟ ​ ⛔️', url='https://youtube.com/@NobiDeveloper')
+        InlineKeyboardButton(f'⛔️  sᴜʙsᴄʀɪʙᴇ ᴏᴜʀ ʏᴛ ᴄʜᴀɴɴᴇʟ ​ ⛔️', url='https://graph.org/file/c097b4ca7d563b79c69ed.gif')
     ])
     offset = 0
 
@@ -705,7 +705,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                     reply_markup=InlineKeyboardMarkup(
                         [
                          [
-                          InlineKeyboardButton("🔰  ᴊᴏɪɴ ꜰᴏʀ ᴍᴏᴠɪᴇs​  🔰", url="https://telegram.me/AllRequestGroups")
+                          InlineKeyboardButton("🔰  ᴊᴏɪɴ ꜰᴏʀ ᴍᴏᴠɪᴇs​  🔰", url="https://telegram.me/inoxreq")
                          ]
                         ]
                     )
@@ -1158,7 +1158,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
 
     elif query.data == "group_info":
         buttons = [[
-            InlineKeyboardButton('ꜱᴜʙꜱᴄʀɪʙᴇ  ᴍʏ  ʏᴛ  ᴄʜᴀɴɴᴇʟ', url="https://youtube.com/@MovieVillaYT"),
+            InlineKeyboardButton('ꜱᴜʙꜱᴄʀɪʙᴇ  ᴍʏ  ʏᴛ  ᴄʜᴀɴɴᴇʟ', url="https://graph.org/file/c097b4ca7d563b79c69ed.gif"),
         ],[
             InlineKeyboardButton('ɢʀᴏᴜᴘ', url="https://telegram.me/InoxReq"),
             InlineKeyboardButton('ᴄʜᴀɴɴᴇʟ', url="https://telegram.dog/InoxHubb")
@@ -1426,7 +1426,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('ꜱᴛᴀᴛᴜꜱ', callback_data='stats'),
             InlineKeyboardButton('ᴅɪꜱᴄʟᴀɪᴍᴇʀ', callback_data='source')
         ],[
-            InlineKeyboardButton('ꜱᴜʙꜱᴄʀɪʙᴇ  ᴍʏ  ʏᴛ  ᴄʜᴀɴɴᴇʟ', url='https://youtube.com/@NobiDeveloper')
+            InlineKeyboardButton('ꜱᴜʙꜱᴄʀɪʙᴇ  ᴍʏ  ʏᴛ  ᴄʜᴀɴɴᴇʟ', url='https://graph.org/file/c097b4ca7d563b79c69ed.gif')
         ],[
             InlineKeyboardButton('ʀᴇᴘᴏʀᴛ  ʙᴜɢꜱ  ᴀɴᴅ  ꜰᴇᴇᴅʙᴀᴄᴋ', url='https://telegram.me/InoxDiscussion')
         ],[
