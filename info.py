@@ -89,7 +89,7 @@ DELETE_CHANNELS = [int(dch) if id_pattern.search(dch) else dch for dch in enviro
 MAX_B_TN = environ.get("MAX_B_TN", "8")
 MAX_BTN = is_enabled((environ.get('MAX_BTN', "True")), True)
 PORT = environ.get("PORT", "8080")
-S_GROUP = environ.get('S_GROUP',"https://telegram.me/BotszSupport")
+S_GROUP = environ.get('S_GROUP',"https://telegram.me/InoxDiscussion")
 RUL_LNK = environ.get('RUL_LNK',"https://graph.org/%F0%9D%97%A0%F0%9D%9E%93%F0%9D%97%A6%F0%9D%97%A7%F0%9D%9E%9D%F0%9D%97%A5-02-15")
 MAIN_CHANNEL = environ.get('MAIN_CHANNEL',"https://telegram.me/inoxhubb")
 GRP_LNK = environ.get('GRP_LNK', 'https://telegram.me/InoxDiscussion')
@@ -117,7 +117,7 @@ PROTECT_CONTENT = is_enabled((environ.get('PROTECT_CONTENT', "False")), False)
 PUBLIC_FILE_STORE = is_enabled((environ.get('PUBLIC_FILE_STORE', "True")), True)
 
 LANGUAGES = ["hindi", "hin", "tamil", "tam", "telugu", "tel", "english", "eng", "kannada", "kan", "malayalam", "mal"]
-TUTORIAL = environ.get('TUTORIAL', 'https://t.me/c/2092334855/2')
+TUTORIAL = environ.get('TUTORIAL', 'https://t.me/HtdInox')
 IS_TUTORIAL = bool(environ.get('IS_TUTORIAL', True))
 
 LOG_STR = "Current Cusomized Configurations are:-\n"
