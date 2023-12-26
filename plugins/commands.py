@@ -413,7 +413,7 @@ async def start(client, message):
             ]
         )
     )
-    k = await msg.reply("<b>⚠️  ᴀꜰᴛᴇʀ 10 ᴍɪɴᴜᴛᴇꜱ ᴛʜɪꜱ ᴍᴇꜱꜱᴀɢᴇ ᴡɪʟʟ ʙᴇ ᴀᴜᴛᴏᴍᴀᴛɪᴄᴀʟʟʏ ᴅᴇʟᴇᴛᴇᴅ  🗑️</b>", quote=True)
+    k = await msg.reply("<b>⚠️  ᴀꜰᴛᴇʀ 10 ᴍɪɴᴜᴛᴇꜱ ᴛʜɪꜱ ᴍᴇꜱꜱᴀɢᴇ ᴡɪʟʟ ʙᴇ ᴀᴜᴛᴏᴍᴀᴛɪᴄᴀʟʟʏ ᴅᴇʟᴇᴛᴇᴅ. ꜱᴀᴠᴇ ᴏʀ ꜰᴏʀᴡᴀʀᴅ ɪᴍᴍᴇᴅɪᴀᴛᴇʟʏ  🗑️</b>", quote=True)
     await asyncio.sleep(600)
     await msg.delete()
     await k.delete()
