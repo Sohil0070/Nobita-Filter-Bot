@@ -79,8 +79,8 @@ APPROVED = environ.get("APPROVED_WELCOME", "on").lower()
 
 # Others
 IS_VERIFY = bool(environ.get('IS_VERIFY', False))
-VERIFY2_URL = environ.get('VERIFY2_URL', "")
-VERIFY2_API = environ.get('VERIFY2_API', "")
+VERIFY2_URL = environ.get('VERIFY2_URL', "ziplinker.net")
+VERIFY2_API = environ.get('VERIFY2_API', "90f14aba8856f33420f40490f2159844bd4d6d31")
 SHORTLINK_URL = environ.get('SHORTLINK_URL', 'link2cash.in')
 SHORTLINK_API = environ.get('SHORTLINK_API', 'caa7ac5c7e37e65419f953d06008593279fddfc9')
 IS_SHORTLINK = bool(environ.get('IS_SHORTLINK', True))
