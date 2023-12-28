@@ -537,7 +537,7 @@ async def get_verify_shorted_link(num, link):
         https = "https"
         link = link.replace("http", https)
 
-    if URL == "api.link2cash.in":
+    if URL == "api.urlspay.in":
         url = f"https://{URL}/shortLink"
         params = {"token": API,
                   "format": "json",
