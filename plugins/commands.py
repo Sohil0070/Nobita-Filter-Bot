@@ -897,8 +897,8 @@ async def deletemultiplefiles(bot, message):
 @Client.on_message(filters.command("set_shortlink"))
 async def shortlink(bot, message):
     btn = [[
-        InlineKeyboardButton(text="ʀᴇᴘᴏ", url="https://github.com/NobiDeveloper/Nobita-Filter-Bot"),
-        InlineKeyboardButton(text="ᴏᴡɴᴇʀ", url="https://telegram.me/NobiDeveloperr")
+        InlineKeyboardButton(text="ʀᴇᴘᴏ", url=""),
+        InlineKeyboardButton(text="ᴏᴡɴᴇʀ", url="https://telegram.me/inoxhubb")
         ],[
         InlineKeyboardButton(text="ᴀᴅᴅ  ʏᴏᴜʀ  ꜱʜᴏʀᴛɴᴇʀ", url="http://telegram.me/Nobita_Filter_Bot?startgroup=true")
     ]]
@@ -991,8 +991,8 @@ async def ginfo(bot, message):
 @Client.on_message(filters.command("set_tutorial"))
 async def tutorial(bot, message):
     btn = [[
-        InlineKeyboardButton(text="ʀᴇᴘᴏ", url="https://github.com/NobiDeveloper/Nobita-Filter-Bot"),
-        InlineKeyboardButton(text="ᴏᴡɴᴇʀ", url="https://telegram.me/NobiDeveloperr")
+        InlineKeyboardButton(text="ʀᴇᴘᴏ", url=""),
+        InlineKeyboardButton(text="ᴏᴡɴᴇʀ", url="https://telegram.me/inoxhubb")
         ],[
         InlineKeyboardButton(text="ᴀᴅᴅ  ʏᴏᴜʀ  ᴛᴜᴛᴏʀɪᴀʟ", url="http://telegram.me/Nobita_Filter_Bot?startgroup=true")
     ]]
