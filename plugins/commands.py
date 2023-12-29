@@ -318,7 +318,7 @@ async def start(client, message):
             btn = [[
                 InlineKeyboardButton("Get File", url=f"https://telegram.me/{temp.U_NAME}?start=files_{fileid}")
             ],[
-                InlineKeyboardButton('🎪  ꜱᴜʙꜱᴄʀɪʙᴇ ᴍʏ ʏᴛ ᴄʜᴀɴɴᴇʟ  🎪', url='https://graph.org/file/c097b4ca7d563b79c69ed.gif')
+                InlineKeyboardButton('🎪  ꜱᴜʙꜱᴄʀɪʙᴇ ᴍʏ ʏᴛ ᴄʜᴀɴɴᴇʟ  🎪', url='https://telegram.me/inoxhubb')
             ]]
             await message.reply_photo(
                 photo='https://telegra.ph/file/99634722e5277095bf1e7.jpg',
