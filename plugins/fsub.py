@@ -99,7 +99,7 @@ async def ForceSub(bot: Client, update: Message, file_id: str = False, mode="che
                 InlineKeyboardButton("⛔  ᴊᴏɪɴ ᴜᴘᴅᴀᴛᴇs ᴄʜᴀɴɴᴇʟ  ⛔", url=invite_link)
             ],
             [
-                InlineKeyboardButton("♻️  ᴛʀʏ ᴀɢᴀɪɴ  ♻️", callback_data=f"{mode}#{file_id}")
+                InlineKeyboardButton("♻️  ᴛʀʏ ᴀɢᴀɪɴ  ♻️", callback_data=f"https://t.me/{temp.U_NAME}?start={message.command[1]}")
             ]
         ]
         
