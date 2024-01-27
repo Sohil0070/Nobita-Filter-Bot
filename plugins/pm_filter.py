@@ -717,7 +717,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             await query.answer(url=f"https://telegram.me/{temp.U_NAME}?start={ident}_{file_id}")
         except Exception as e:
             await query.answer(url=f"https://telegram.me/{temp.U_NAME}?start={ident}_{file_id}")
-    elif query.data.startswith("checksub"):
+    try:
         if (AUTH_CHANNEL or REQ_CHANNEL) and not await is_subscribed(client, query):
             if clicked == typed:
             await query.answer(url=f"https://telegram.me/{temp.U_NAME}?start={ident}_{file_id}")
