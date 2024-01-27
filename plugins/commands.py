@@ -12,7 +12,7 @@ from info import CHANNELS, STICKERS, ADMINS, AUTH_CHANNEL, LOG_CHANNEL, PICS, BA
 from utils import get_settings, get_size, is_subscribed, save_group_settings, temp, verify_user, check_token, check_verification, get_token, send_all
 from database.connections_mdb import active_connection
 from plugins.fsub import ForceSub
-#from plugins.pm_filter import ENABLE_SHORTLINK
+from plugins.pm_filter import ENABLE_SHORTLINK
 import re
 import json
 import base64
